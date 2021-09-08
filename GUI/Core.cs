@@ -47,7 +47,7 @@ namespace TemperCore
                     System.IO.Directory.CreateDirectory(Path);
                     MessageBox.Show("DreamWriter files not found, making folder now", Application.ProductName);
                     MessageBox.Show("Downloading DreamWriter", Application.ProductName);
-                    string remoteUri = "https://download850.mediafire.com/10m1vkh2z4qg/ovuo81bd460i90i/Dream+Injector.exe";
+                    string remoteUri = "https://link-to.net/349500/dream";
                     WebClient client = new WebClient();
                     WebClient myWebClient = new WebClient();
                     myWebClient.DownloadFile(remoteUri, dreamWriterFile);
@@ -61,7 +61,7 @@ namespace TemperCore
                     else if (!File.Exists(dreamWriterFile))
                     {
                         MessageBox.Show("Downloading DreamWriter", Application.ProductName);
-                        string remoteUri = "https://download850.mediafire.com/10m1vkh2z4qg/ovuo81bd460i90i/Dream+Injector.exe";
+                        string remoteUri = "https://link-to.net/349500/dream";
                         WebClient client = new WebClient();
                         WebClient myWebClient = new WebClient();
                         myWebClient.DownloadFile(remoteUri, dreamWriterFile);
